@@ -1,0 +1,30 @@
+{
+  "name": "website-screenshot",
+  "version": "1.0.0",
+  "description": "Take a screenshot of the site through a link",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "website-screenshot": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/youpinyao/website-screenshot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/youpinyao/website-screenshot/issues"
+  },
+  "homepage": "https://github.com/youpinyao/website-screenshot#readme",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "puppeteer": "^1.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "babel-eslint": "^8.2.3"
+  }
+}
