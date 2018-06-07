@@ -33,6 +33,7 @@ async function screenshot(platform, url) {
       href: window.location.href,
     };
   });
+  const saveTo = `${process.cwd()}/${platform}_${encodeURIComponent(href)}.png`;
 
   // if (host && !fs.existsSync(`${rootPath}/${host}`)) {
   //   fs.mkdirSync(`${rootPath}/${host}`);
@@ -46,10 +47,10 @@ async function screenshot(platform, url) {
   });
 
   await page.screenshot({
-    path: `${process.cwd()}/${platform}_${encodeURIComponent(href)}.png`
+    path: saveTo,
   });
 
-  console.log(chalk.yellow(`save to           ${url}`));
+  console.log(chalk.yellow(`save to           ${saveTo}`));
 
   await browser.close();
 
