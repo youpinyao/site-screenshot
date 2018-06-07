@@ -1,6 +1,6 @@
 {
   "name": "site-screenshot",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Take a screenshot of the site through a link",
   "main": "index.js",
   "scripts": {

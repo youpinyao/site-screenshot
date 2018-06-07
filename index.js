@@ -28,8 +28,8 @@ async function screenshot(platform, url) {
     return {
       host: window.location.host,
       title: document.title,
-      width: document.body.clientWidth,
-      height: document.body.clientHeight,
+      width: document.body.scrollWidth,
+      height: document.body.scrollHeight,
       href: window.location.href,
     };
   });
