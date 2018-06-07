@@ -1,5 +1,5 @@
 {
-  "name": "website-screenshot",
+  "name": "site-screenshot",
   "version": "0.0.1",
   "description": "Take a screenshot of the site through a link",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "website-screenshot": "./index.js"
+    "site-screenshot": "./index.js"
   },
   "repository": {
     "type": "git",
