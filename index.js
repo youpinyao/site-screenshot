@@ -33,7 +33,7 @@ async function screenshot(platform, url) {
       href: window.location.href,
     };
   });
-  const saveTo = `${process.cwd()}/${platform}_${encodeURIComponent(href)}.png`;
+  const saveTo = `${process.cwd()}/${platform}_${host}_${+(new Date())}.png`;
 
   // if (host && !fs.existsSync(`${rootPath}/${host}`)) {
   //   fs.mkdirSync(`${rootPath}/${host}`);
